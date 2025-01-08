@@ -1,0 +1,6 @@
+numpy==2.0
+librosa
+pandas
+matplotlib
+sktime
+tslearn
