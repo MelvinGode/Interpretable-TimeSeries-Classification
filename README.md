@@ -1,6 +1,6 @@
 # Interpretable Time Series Classification
 
-A full re-implementation of the **MrSEQL** method for interpretable time series classification, based on symbolic discretization and subsequence logistic regression.
+A full re-implementation of the [**MrSEQL**](https://arxiv.org/pdf/2006.01667) method for interpretable time series classification, based on symbolic discretization and subsequence logistic regression.
 
 Time series are first converted into symbolic strings (SAX/SFA discretization), then frequent and discriminative subsequences are mined and used as binary features for a logistic regression classifier. The resulting model is interpretable by design: each feature corresponds to a specific pattern in the original signal, and its regression weight directly indicates how much that pattern pushes toward one class or the other.
 
